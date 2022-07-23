@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+body {
+    background-color: grey;
+}
+.container {
+    padding: 0;
+    width: 476px;
+    min-height: 700px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#form{
+    padding: 0 8px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.list {
+    margin: 0 auto;
+}
+.list__input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+.list__btn {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.list i {
+    color: #998899;
+    font-size: 20px;
+}
+.new {
+    border: 1px solid #BBBBBB;
+    border-radius: 6px;
+    padding: 12px 0 12px 12px;
+    width: 100%;
+    border: 1px solid #998899;
+}
+.task {
+    border: 1px solid #998899;
+    border-radius: 6px;
+}
+
+.cheked {
+    background-color: grey;
+}
+
+label {
+   color: #202020;
+   width: 370px;
+   padding: 12px 45px 12px 12px;
+}
+.radio {
+    margin-left: 12px;
+    margin-top: 14px;
+    width: 21px;
+    height: 21px;
+}
+.cross img {
+    transform: rotate(45deg);
+}

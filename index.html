@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do лист</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="form">
+            <div class="list" id="high">
+                <h2>High</h2>
+                <div class="list__input"> 
+                    <input id="input_high" class="new" type="text" placeholder="Добавить важных дел" required>
+                    <button id="btn_high" class="list__btn add">
+                        <img src="img/close-icon.png" alt="plus">
+                    </button>
+                </div>   
+                <div class="list__input task"> 
+                    <input class="radio" type="radio">
+                    <label for="">Вот вам и супер интересная тема.<br>Вы наверняка заметили что ваши файлы с кодом становятся все объемнее, что хочется вынести некоторые вещи куда-то за пределы основной программы.</label>
+                    <button class="list__btn cross">
+                        <img  src="img/close-icon.png" alt="cross">
+                    </button>
+                </div> 
+                <div class="list__input task"> 
+                    <input class="radio" type="radio">
+                    <label for="">Сверстать этот TODO list</label>
+                    <button class="list__btn cross">
+                        <img src="img/close-icon.png" alt="cross">
+                    </button>
+                </div>    
+                <div class="list__input task"> 
+                    <input class="radio" type="radio">
+                    <label for="">Начать делать задачу</label>
+                    <button class="list__btn cross">
+                        <img src="img/close-icon.png" alt="cross">
+                    </button>
+                </div>    
+            </div>    
+            <div class="list" id='low'>
+                <h2>Low</h2>
+                <div class="list__input"> 
+                    <input id="input_low" class="new" type="text" placeholder="Добавить" required>
+                    <button id="btn_low" class="list__btn">
+                        <img src="img/close-icon.png" alt="plus">
+                    </button>  
+                </div>        
+                <div class="list__input task"> 
+                    <input class="radio" type="radio">
+                    <label for="">Посмотреть ютубчик</label>
+                    <button class="list__btn cross">
+                        <img src="img/close-icon.png" alt="cross">
+                    </button>
+                </div>    
+            </div>
+        </div> 
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
